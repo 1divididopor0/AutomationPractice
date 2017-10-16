@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="Login Tests">
+
+	<test name ="P1 Tests">
+		<groups>
+			<run>
+				<include name ="p1"/>
+			</run>
+		</groups>
+		
+		<classes>
+			<class name ="MavenTest1.Login_Test"/>
+			
+		</classes>
+	</test>	
+	
+	<test name ="P2 Tests">
+		<groups>
+			<run>
+				<include name ="p2"/>
+			</run>
+		</groups>
+	
+		<classes>
+			<class name ="MavenTest1.Login_Test">
+				<methods>
+					<exclude name="fillPasswd"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+		<test name ="P3 Tests">
+		<groups>
+			<run>
+				<include name ="p3"/>
+			</run>
+		</groups>
+	
+		<classes>
+			<class name ="MavenTest1.Login_Test"/>
+		</classes>
+	</test>
+	
+	<test name ="P4 Tests">
+		<groups>
+			<run>
+				<include name ="p4"/>
+			</run>
+		</groups>
+	
+		<classes>
+			<class name ="MavenTest1.Login_Test"/>
+		</classes>
+	</test>
+	
+	
+</suite>

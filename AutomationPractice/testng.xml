@@ -9,7 +9,7 @@
 		</groups>
 		
 		<classes>
-			<class name ="MavenTest1.Login_Test"/>
+			<class name ="rohan.test.AutomationPractice.AutomationPractice.Tests"/>
 			
 		</classes>
 	</test>	
@@ -22,7 +22,7 @@
 		</groups>
 	
 		<classes>
-			<class name ="MavenTest1.Login_Test">
+			<class name ="rohan.test.AutomationPractice.AutomationPractice.Tests">
 				<methods>
 					<exclude name="fillPasswd"/>
 				</methods>
@@ -38,7 +38,7 @@
 		</groups>
 	
 		<classes>
-			<class name ="MavenTest1.Login_Test"/>
+			<class name ="rohan.test.AutomationPractice.AutomationPractice.Tests"/>
 		</classes>
 	</test>
 	
@@ -50,7 +50,7 @@
 		</groups>
 	
 		<classes>
-			<class name ="MavenTest1.Login_Test"/>
+			<class name ="rohan.test.AutomationPractice.AutomationPractice.Tests"/>
 		</classes>
 	</test>
 	

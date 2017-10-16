@@ -5,7 +5,6 @@
   <groupId>rohan.test.AutomationPractice</groupId>
   <artifactId>AutomationPractice</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
 
   <name>AutomationPractice</name>
   <url>http://maven.apache.org</url>
@@ -16,10 +15,28 @@
 
   <dependencies>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+  	</dependency>  	
+  	<dependency>
+  		<groupId>org.testng</groupId>
+  		<artifactId>testng</artifactId>
+  		<scope>test</scope>
+	</dependency>	
   </dependencies>
+  
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+  			<groupId>org.seleniumhq.selenium</groupId>
+  			<artifactId>selenium-java</artifactId>
+  			<version>3.5.3</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.testng</groupId>
+  			<artifactId>testng</artifactId>
+  			<version>6.8</version>
+  		</dependency>
+  	</dependencies>
+  </dependencyManagement>
 </project>
